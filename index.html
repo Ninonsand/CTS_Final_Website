@@ -5,6 +5,10 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+    <script src="https://0h6y9qgief.execute-api.us-east-1.amazonaws.com/default/randmsggenerator"></script>
+    <script type ="text/javascript">
+        document.getElementById("motd").innerHTML = function(randmsggenerator);
+    </script>
     <div class="container">
         <div class="box margin"></div>
         <div class="box title">Meme Hall of Fame</div>
@@ -24,10 +28,20 @@
         </div>
         <div class="box margin"></div>
         <div class="box margin"></div>
-        <div class="box">I</div>
-        <div class="box">J</div>
-        <div class="box">K</div>
+        <div class="box">
+            <a href="spongebob.html"><img id="imageformatting" src="memes/spongebob.jpg"></a>
+            <a href="spongebob.html"><button class="button" style="vertical-allign:middle"><span>Spongebob Memes</span></button></a>
+        </div>
+        <div class="box">
+            <a href="twitch.html"><img id="imageformatting" src="memes/twitch.jpg"></a>
+            <a href="twitch.html"><button class="button" style="vertical-allign:middle"><span>Twitch Memes</span></button></a>
+        </div>
+        <div class="box">
+            <a href="acceleracers.html"><img id="imageformatting" src="memes/acceleracers.jpg"></a>
+            <a href="acceleracers.html"><button class="button" style="vertical-allign:middle"><span>Hotwheels Acceleracers</span></button></a>
+        </div>
         <div class="box margin"></div>
     </div>
+    <p id="motd"></p>
 </body>
 </html>
